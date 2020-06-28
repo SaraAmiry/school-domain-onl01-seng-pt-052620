@@ -17,5 +17,5 @@ class School
     self.roster.each do |grade, name| 
       name.sort! 
     end 
-    
+  end  
 end 
