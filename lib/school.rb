@@ -8,4 +8,8 @@ class School
   def add_student(name, grade)
     self.roster[grade] << name
   end
+  
+  def grade(grade)
+    self.roster[grade]
+  end 
 end 
